@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+    color:blue;
+    text-decoration: solid;
+    text-shadow: 0cqb;
+    text-transform: capitalize;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: yellow;
+    background-image: -moz-linear-gradient();
+}
+
+form{
+    color:antiquewhite;
+    text-align: center;
+    text-decoration-color: brown;
+}
