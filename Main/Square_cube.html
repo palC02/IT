@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Number,Square and Cube</title>
+    <style>
+        body{
+            background-color: rgb(3, 2, 0);
+        }
+        h1{
+            color: white;
+        }
+        table{
+            color: whitesmoke
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Table :)</h1>
+    </h1>
+    <script>
+        var a='<table border= 1 cellspacing=2><tr><td>Number</td><td>Square</td><td>Cube</td></tr>'; 
+            var num,sq, cub;
+            for(let i=5; i<=15; i++){
+                num=i;
+                sq=num*num;
+                cub=sq*num;
+                a+='<tr><td>'+num+'</td><td>'+sq+'</td><td>'+cub+'</td></tr>';
+            }
+            a+='</table>';
+            document.write(a);
+    </script>
+</body>
+</html>
