@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Checking</title>
 </head>
+
 <body>
     <script>
-        var str=prompt("Enter a String"),f=0;
-        const len=str.length;
-        for(let i=0;i<len/2; i++){
-            if(str[i]!= str[len-i-1]){
-                alert("This is not a Palindrome 😩");
-                f=1;
+        var str = prompt("Enter a String"), f = 0;
+        const len = str.length;
+        str=str.toUpperCase();
+        for (let i = 0; i < len / 2; i++) {
+            if (str[i] != str[len - i - 1]) {
+                alert("This is not a Palindrome String");
+                f = 1;
                 break;
-            }                          
+            }
         }
-        if(f==0){
-            alert("This is a Palindrome 😀");
+        if (f == 0) {
+            alert("This is a Palindrome String");
         }
     </script>
 </body>
+
 </html>

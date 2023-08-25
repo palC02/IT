@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>
+            Terminated by Zero
+        </title>
+        <style>
+            h1{
+                color: blue;
+                text-align: center;
+            }
+            .center{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height:200px;
+            }
+
+            
+        </style>
+    </head>
+    <body>
+        <h1>Terminated by Zero</h1>
+       
+       <div class="center"> <input style="align-self: center;" type="button", onclick="SumAvg()", value="Click">
+       </div>
+       
+        <script>
+            function SumAvg(){
+                var len;
+                do
+                {
+                    len=Number(prompt("Enter the number of elements: "));
+                    if(len<=0||isNaN(len))
+                    alert("Please enter a positive number");
+                }while(len<=0||isNaN(len));
+                
+                let sum=0, avg = 0,num;
+                for(let i=0; i<len;){
+                    num=Number(prompt("Enter the number: "));
+                    if(num<=0||num%10||isNaN(num)){
+                        alert("Please Enter a Positive Number terminated by Zero");  
+                    }
+                    else{
+                        sum=sum+num;
+                        i++;
+                    }
+                }
+            avg=sum/len;
+            document.write("The Sum is: "+sum+"<br>Avarage is: "+avg);
+            }
+        </script>
+    </body>
+</html>
