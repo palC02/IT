@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Sum_And_Avarage</title>
+    </head>
+    <body>
+        <h1>Terminated_if_Zero_Comes</h1>
+        <div>
+        <input type="button"; onclick="Sum_Avg()"; value="Click">
+        </div>
+        <script>
+            function Sum_Avg(){
+                let sum=0,num,avg;
+                let i=0;
+               
+                while(true){
+                    num=prompt("Enter a Positive Number");
+                    if(Number(num)<0||Number(isNaN(num))||num==""){
+                        alert("Please Enter a Positive Number");
+                    }
+                    else if(Number(num)==0){
+                        
+                        break;
+                    }
+                    else{
+                        sum=sum+Number(num);
+                        i++;
+                    }
+                }
+                avg=sum/i;
+                document.write("Sum is: "+sum+"<br>Avarage is: "+avg);
+            }
+        </script>
+    </body>
+</html>
