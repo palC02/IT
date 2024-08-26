@@ -1,0 +1,63 @@
+Bold Tag: <b></b>
+Italic Tag: <i></i>
+Underline Tag: <u></u>
+Strikethrough Tag: <s></s>
+Inserted Tag: <ins></ins>
+Superscript Tag: <sup></sup>
+Subscript Tag: <sub></sub>
+Small Tag: <small></small>
+Mark Tag: <mark></mark> 
+**Mark Tag use for Highlight
+Strong Tag: <strong></strong>
+Emphasized Tag: <em></em>
+Select Tag: <select></select>
+*****
+<select>
+      <option></option>
+</select>
+
+
+****************************
+Some other tags
+input tag:----
+text
+number
+date
+time
+radio
+checkbox
+submit
+value
+placeholder
+max/min
+name
+readonly
+hidden
+
+*****************************
+iFrame Tag ----> Use for display ads, video, googlemaps
+<iframe></iframe>
+
+Image Tag:
+<img src=""/>
+
+Audio Tag:
+<audio controls muted loop autoplay>
+      <source src=""/>
+</audio>
+control: used for play pause etc
+
+Video Tag:
+<video></video>
+
+
+List Tag:----->>>
+Order List:
+<ol>
+  <li></li>
+</ol>
+
+Unorder List:
+<ul>
+   <li></li>
+</ul>
